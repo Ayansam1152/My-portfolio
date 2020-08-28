@@ -1,0 +1,270 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* side conatiner */
+
+.side-container {
+    display: list-item;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 578px;
+    width: 100%;
+    background: #54B689;
+    color: #fff;
+   
+
+}
+
+#profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+#profile-container h2 {
+    font-size: 29px;
+    margin-top: 51px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img {
+
+    margin: 14px 4px;
+    height: 150px;
+    width: 150px;
+    border-radius: 74px;
+   
+}
+
+#profile-container p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+#navbar{
+    width: 62%;
+    text-align: left;
+}
+
+
+
+/* About-section */
+
+.about-me{
+
+    width: 100%;
+    background-color: rgb(249 245 245 / 50%);
+}
+
+
+#about-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 43px;
+    margin-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-top: 578px;
+   
+}
+
+.intro-box{
+    width: 100%;
+}
+
+.intro-box h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 68px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.tag{
+   
+      margin-top: 13px;
+      margin-bottom: 20px;
+      font-size: 27px;
+      margin-left: 20px;
+}
+
+.para{
+    font-size: 17px;
+    margin-left: 20px;
+  
+}
+
+#profile-img{
+    display: flex;
+    height: 289px;
+    width: 380px;
+    margin-top: 25px;
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 20px;
+    max-width: 50%;
+}
+
+@media(max-width:560px){
+  #profile-img{
+    width: 209px;
+    height: 201px;
+    max-width: 75%;
+  }
+
+}
+
+
+
+/* skill-section */
+
+#skill-section {
+    margin-top: 68px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+}
+
+
+.skill-para {
+    font-size: 16px;
+    width: 80%;
+}
+
+
+.skill-box {
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 28%;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+@media(max-width:363px){
+    .skill-box {
+        margin-left: 60px;
+    margin-top: 50px;
+    width: 67%;
+
+    padding: 10px;
+    box-sizing: unset;
+    }
+}
+
+
+
+/* project-section */
+
+#project-section{
+    margin-left: 0px;
+}
+
+
+.project-group {
+    height: 312px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+.projects-stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+    height: 74%;
+    padding: 27px;
+    background-color: rgb(249 245 245 / 50%);
+}
+
+@media(min-width:406)  and (max-width:487px){
+    .projects-stuff{
+        margin-bottom: 79px;
+    }
+}
+
+
+@media(max-width:405px){
+    .projects-stuff{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 9px;
+    margin-top: 50px;
+    width: 100%;
+    height: 101%;
+    padding: 27px;
+    background-color: rgb(249 245 245 / 50%);
+    }
+
+    @media(min-width:474px) and (max-width: 1099px){
+        .projects-stuff{
+            height: 50%;
+        }
+    }
+
+    .project-img {
+        height: 213px;
+        width: 259px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+}
+
+
+/* contact-section */
+#contact {
+    margin-left: 0px;
+    margin-top: 378px;
+}
+
+.form-group {
+    
+    width: 52%;
+    padding: 7px;
+}
+
+
+@media(max-width:405px){
+    #contact {
+        margin-left: 0px;
+        margin-top: 1204px;
+    }
+
+    .form-group {
+        
+        width: 63%;
+        padding: 7px;
+    }
+
+    .btn{
+        padding: 7px 21px;
+    }
+}
+
+
+
+/* Utilities section */
+
+.primary-h1 {
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 31px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

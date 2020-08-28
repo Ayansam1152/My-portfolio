@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   box-sizing: border-box;
+}
+
+/* side profile view */
+
+.side-container{
+   
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 280px;
+    background: #54B689;
+    color: #fff;
+    overflow-y: auto;
+   
+}
+
+#profile-container h2{
+    font-size: 29px;
+   text-align: center;
+   margin-top: 51px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+
+/* profile image */
+.img{
+   
+    margin: 22px 65px;
+    height: 150px;
+    width: 150px;
+    border-radius: 74px;
+}
+
+#profile-container p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+     padding: 1px 12px;
+    text-align: center;
+    margin-bottom: 21px;
+
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    margin-left:65px;
+    height: 70px;
+    width: 30px;
+}
+
+.social-media img{
+  
+    height: 36px;
+    width: 36px;
+    margin: 10px 13px;
+  
+}
+
+/* navbar-section */
+
+#navbar ul li{
+    list-style: none;
+    margin: 19px 69px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    color: black;
+}
+
+
+
+
+/* About section */
+
+#about-section{
+   display: flex;
+    margin-left: 280px;
+    background-color: rgb(249 245 245 / 50%);
+    
+}
+
+
+.intro-box h1 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+       margin-top: 68px;
+       margin-left: 60px;
+       font-size: 45px;
+       font-weight: bold;
+}
+.tag{
+    
+       margin-left: 60px;
+       margin-top: 13px;
+       margin-bottom: 20px;
+       font-size: 29px;
+}
+.para{
+    font-size: 18px;
+    margin-left: 60px;
+  
+}
+
+#profile-img{
+    height: 295px;
+    width: 350px;
+   margin-left: 10px;
+    margin-top: 66px;
+    margin-right: 46px;
+  
+}
+
+
+/* Skill- section */
+
+#skill-section{
+    margin-top: 68px;
+    margin-left: 280px;
+    margin-bottom: 100px;
+   
+}
+
+.skill-para{
+    font-size: 18px;
+    margin-left: 60px;
+  
+}
+
+#skill-boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-box{
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 24%;
+    padding: 10px;
+    
+}
+.skill-box h3{
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.skill-img{
+  
+    height: 40px;
+    width: 40px;
+    margin-bottom: 5px;
+}
+
+.skill-box p{
+    font-size: 17px;
+}
+
+/* Projects- Section */
+
+#project-section{
+    margin-left: 280px;
+}
+
+.project-group{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-img{
+    height: 127px;
+    width: 116px;
+    margin-right: 37px;
+    align-items: center;
+}
+
+.projects-stuff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 38%;
+    height: 49%;
+    padding: 13px;
+    background-color: rgb(249 245 245 / 50%);
+}
+.projects-stuff h2{
+    margin-bottom: 10px;
+}
+
+
+
+/* contact us Section */
+
+#contact{
+    margin-left: 280px;
+    margin-top: 268px;
+
+}
+
+#contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 71px;
+    margin-bottom: 20px;
+}
+
+.form-group{
+   
+    width: 37%;
+    padding: 7px;
+}
+
+.form-group input , textarea{
+    padding: 0.5rem;
+    width: 100%;
+    border: 2px solid #54B689;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    
+}
+
+.form-group label{
+    font-size: 20px;
+}
+
+
+/* utilities-section */
+.primary-h1{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    margin: 19px 4px;
+    padding: 7px 37px;
+    color: white;
+    background-color: #54B689;
+    font-weight: bold;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    color: white;
+    background-color: #179158;
+}
+
